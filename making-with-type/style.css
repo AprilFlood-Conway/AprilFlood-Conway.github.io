@@ -1,0 +1,74 @@
+@font-face {
+    font-family:'cubixcode';
+    src:url('cubixcode.woff');
+}
+@font-face {
+    font-family:'nihonium';
+    src:url(nihonium.woff);
+}
+@font-face {
+    font-family:'minisystem';
+    src:url(minisystem.woff);
+}
+
+body {background-color: black;}
+    
+div.tab {
+    font-size: 100px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    height:auto;
+    display: flex;
+    flex-wrap:nowrap;
+    color: #ec3830;
+    background-color: black;
+    font-family:'nihonium';
+}
+
+div.line {
+    font-family:'cubixcode';
+    font-size:100px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    color:white;        
+
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+div.text {
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:fit-content;
+    color:white; 
+    display: flex;
+    flex-wrap:nowrap;
+    font-family:'minisystem';
+    padding-bottom: 5px;
+}
+
+
+    div.col.a{color:#009cd2; }
+       
+    div.col.b{color:gold;}
+
+    div.col.c{color:chartreuse;}
+
+    
+        div.line.one {margin-left: 100px;}
+        
+        div.line.two {margin-right: 100px;}
+        
+        div.line.three {margin-left: auto;
+                        margin-right: auto;}
+
+            div.text.x{font-size: 90px;}
+
+            div.text.y{font-size: 0px;}
+
+            div.text.z {font-size:0px;}
