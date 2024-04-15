@@ -12,7 +12,11 @@
 }
 
 body {background-color: black;}
-    
+
+div.radnom{
+    transition:1s;
+}
+
 div.tab {
     font-size: 100px;
     text-align: center;
