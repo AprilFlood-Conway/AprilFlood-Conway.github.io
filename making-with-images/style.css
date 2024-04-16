@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    background-image: url('numbers.png');
+    background-repeat:repeat; 
+    background-size: 500px;
+    background-position:center;
+    background-attachment:fixed;
+
+}
+
+img { width:100%; }
+
+div.random {
+    transition:2s;
+}
+
+div.layout{
+    display:flex;
+}
+
+
+    
+    div.item.one {
+        margin-left:auto;
+        margin-right:auto;
+        width:10%;
+    }
+    div.item.two {
+        margin-right: 90%;
+        width:10%;
+    }
+    div.item.three {
+        margin-left: 90%;
+        width:10%;
+    }
+
+
+        div.box.a {
+            width:0%;
+        }
+        div.box.b {
+            width:25%;
+        }
+        div.box.c {
+            width:50%;
+        }
+
+            div.error.x{
+                opacity:0;
+                width:0%;
+            }
+            div.error.y{
+                opacity:0;
+                width:0%;
+            }
+            div.error.z{
+                opacity:100%;
+                width:50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
