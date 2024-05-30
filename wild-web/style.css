@@ -30,7 +30,7 @@
         font-size: 80px;
         line-height: 80px;
         font-family:'alugu';
-        text-align: center;
+
 
     }
 
@@ -43,16 +43,16 @@
     }
 
     div.body{
-        font-size: 24px;
-        line-height: 25px;
+        font-size: 30px;
+        line-height: 30px;
         text-justify:auto;
         font-family:'crux';
     }
 
     div.caption{
-        font-size: 18px;
-        line-height: 18px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 24px;
+        line-height: 24px;
+        font-family:'crux';
     }
 
 /* text colours */
