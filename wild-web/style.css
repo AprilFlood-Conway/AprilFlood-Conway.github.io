@@ -21,17 +21,15 @@
     font-family:'crux';
     src:url('crux.woff');}
 
-    @font-face {
-        font-family:'alugu';
-        src:url('alugu.woff');}
+@font-face {
+    font-family:'alugu';
+    src:url('alugu.woff');}
 
 /* typography (fonts + sizes) */
     div.title{
         font-size: 80px;
         line-height: 80px;
         font-family:'alugu';
-
-
     }
 
     div.name{
@@ -39,7 +37,8 @@
         line-height: 60px;
         margin-left: auto;
         margin-right: auto;
-        font-family:'crux';
+        font-family:'alugu';
+        padding-bottom: 10px ;
     }
 
     div.body{
@@ -47,12 +46,23 @@
         line-height: 30px;
         text-justify:auto;
         font-family:'crux';
+        border-top: 3px solid;
+        padding: 5px;
+        background-color:gainsboro;
     }
 
     div.caption{
         font-size: 24px;
         line-height: 24px;
         font-family:'crux';
+    }
+
+    div.footer{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+        padding: 5px;
+        font-family: 'crux';
     }
 
 /* text colours */
